@@ -8,7 +8,7 @@ var parrafotwitter=parrafolargo.trim();
 //Cabe en twitter?
 if(parrafolargo.length<140){
   console.log(parrafolargo.length);
-  console.log("!!!CABE EN RWITTER¡¡¡");
+  console.log("!!!CABE EN TWITTER¡¡¡");
   console.log(parrafotwitter);
 }
 

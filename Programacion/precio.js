@@ -6,7 +6,6 @@ function msjError(texto){
 function beneficio(precioCompra,precioVenta){
   let Venta=0;
   let Compra=0;
-
   precioCompra=parseFloat(compra);
   if (isNaN(precioCompra)){
     msjError("Error");
@@ -14,9 +13,12 @@ function beneficio(precioCompra,precioVenta){
   }
   precioVenta=parseFloat(Venta);
   if(isNaN(precioVenta)){
-    msjError("Error")
+    msjError("Error");
+    precioVenta=0;
   }
   return Venta-Compra
 }
 var Venta=prompt("Introduce el precio de venta");
 var Compra=prompt("Introduce el precio de compra");
+var beneficio= beneficio(precioCompra,precioVenta);
+beneficio(precioCompra,precioVenta)= var Venta- var Compra;
