@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__.'/../vendor/autoload.php';
-use Daw\models\Db;
+use Proyecto8\models\baseDeDatos;
 $baseDatos=new Db();
 $baseDatos->conectar();
 ?>

@@ -1,6 +1,6 @@
 <?php
 namespace Daw\models;
-use Daw\config\Config;
+use Proyecto8\config\config;
 use mysqli;
 
 class Db
